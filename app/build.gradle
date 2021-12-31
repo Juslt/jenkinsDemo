@@ -6,13 +6,13 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('/cs.jks')
+            storeFile file('.\\cs.jks')
             storePassword '111222'
             keyAlias '111222'
             keyPassword '111222'
         }
         release {
-            storeFile file('/cs.jks')
+            storeFile file('.\\cs.jks')
             storePassword '111222'
             keyAlias '111222'
             keyPassword '111222'
