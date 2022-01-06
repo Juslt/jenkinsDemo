@@ -26,7 +26,7 @@ android {
         targetSdk 31
         versionCode 1
         versionName "1.0"
-
+        buildConfigField 'String', 'APP_BUILD_TYPE', APP_BUILD_TYPE.toString()
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk {
             abiFilters "armeabi"
